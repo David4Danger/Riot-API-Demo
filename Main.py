@@ -1,6 +1,6 @@
 from RiotAPI import RiotAPI
 def main():
-        api = RiotAPI('a14bbd5a-586a-469d-97dd-9beddfd95e2b')
+        api = RiotAPI('a14bbd5a-586a-469d-97dd-9beddfd95e2b') #my old key
         res = api.get_summoner_by_name('streetjustlce') #result of summoner by name func
         print (type(res)) #should be a dictionary
         print(res) #is the summoner info dictionary
